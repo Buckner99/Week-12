@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CRUD Application</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Task List</h1>
+
+    <!-- Display tasks -->
+    <ul id="taskList"></ul>
+
+    <!-- Form for adding and editing tasks -->
+    <form id="taskForm">
+        <input type="hidden" id="taskId" name="taskId" value="">
+        <label for="taskDescription">Task Description:</label>
+        <input type="text" id="taskDescription" name="taskDescription" required>
+        <label for="taskStatus">Task Status:</label>
+        <select id="taskStatus" name="taskStatus" required>
+            <option value="todo">To Do</option>
+            <option value="inprogress">In Progress</option>
+            <option value="done">Done</option>
+        </select>
+        <button type="submit" id="saveBtn">Save</button>
+    </form>
+
+    <script src="app.js"></script>
+</body>
+</html>

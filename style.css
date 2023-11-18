@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #808080; /* Gray background */
+    color: red; /* Red text color */
+}
+
+h1 {
+    color: #fff; /* White text color for heading */
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    margin-bottom: 10px;
+    border: 2px solid #fff; /* White border */
+    padding: 10px;
+    background-color: #fff; /* White background for boxes */
+    font-weight: bold; /* Bold text */
+}
+
+form {
+    margin-top: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+select {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+}
+
+button {
+    background-color: #4caf50;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+/* Optional: Style for the edit and delete buttons within the task list */
+li button {
+    margin-left: 10px;
+}
+li {
+    margin-bottom: 10px;
+    border: 2px solid #d10f0f; /* White border */
+    padding: 10px;
+    background-color: #fff; /* White background for boxes */
+    font-weight: bold; /* Bold text */
+}
